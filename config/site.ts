@@ -6,12 +6,21 @@ export const siteConfig = {
     available: [
       "en",
       "es",
+      "ar",
+      "de",
+      "fr",
+      "hi",
+      "ja",
+      "pt",
+      "ru",
+      "zh"
+
     ],
     default: "en",
   },
   console: {
-    name: "Console", // Just for filter badge
-    uuid: "[Console]", // Use for filter url and to check if a punishment is made from the Console. In some versions of Litebans, the console uuid is "CONSOLE".
+    name: "Server Administration", // Just for filter badge
+    uuid: "[Server Administration]", // Use for filter url and to check if a punishment is made from the Console. In some versions of Litebans, the console uuid is "CONSOLE".
     icon: "/console.webp",
     body: "/console-body.webp",
     bust: "/console-bust.webp",

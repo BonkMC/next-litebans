@@ -4,32 +4,32 @@ const language = {
     lang_name: "Español"
   },
   site: {
-    description: "Una interfaz web simple para LiteBans."
+    description: "El sitio de registros de sanciones de BonkMC."
   },
   words: {
     bans: {
-      singular: "Baneo",
-      plural: "Baneos"
+      singular: "Prohibición",
+      plural: "Prohibiciones"
     },
     mutes: {
-      singular: "Mute",
-      plural: "Muteos"
+      singular: "Silencio",
+      plural: "Silencios"
     },
     kicks: {
       singular: "Expulsión",
       plural: "Expulsiones"
     },
     warns: {
-      singular: "Aviso",
-      plural: "Avisos"
+      singular: "Advertencia",
+      plural: "Advertencias"
     },
     yes: "Sí",
     no: "No",
     player: "Jugador",
-    staff: "Staff",
+    staff: "Personal",
     reason: "Razón",
     date: "Fecha",
-    expires: "Expiración",
+    expires: "Expira",
     originServer: "Servidor de origen",
     notified: "Notificado",
   },
@@ -37,12 +37,12 @@ const language = {
     home: {
       title: "Inicio",
       // Placeholders: {total}, {bans}, {mutes}, {kicks}, {warns}
-      subtitle: "¡Bienvenido a la interfaz web de Litebans!"
+      subtitle: "¡Bienvenido a los registros de sanciones de BonkMC!"
     },
     history: {
       title: "Historial",
       // Placeholders: {total}
-      subtitle: "Sanciones totales: {total}",
+      subtitle: "Total de sanciones: {total}",
       table: {
         heads: {
           type: "Tipo",
@@ -50,7 +50,7 @@ const language = {
           by: "Sancionado por",
           reason: "Razón",
           date: "Fecha",
-          expires: "Expiración"
+          expires: "Expira"
         },
         permanent: "Sanción permanente",
         expire_not_applicable: "N/A",
@@ -62,18 +62,18 @@ const language = {
       }
     },
     bans: {
-      title: "Baneos",
+      title: "Prohibiciones",
       // Placeholders: {total}
-      subtitle: "Baneos totales: {total}",
+      subtitle: "Cantidad de prohibiciones: {total}",
       table: {
         heads: {
           player: "Jugador",
-          by: "Baneado por",
+          by: "Prohibido por",
           reason: "Razón",
           date: "Fecha",
-          expires: "Expiración"
+          expires: "Expira"
         },
-        permanent: "Baneo permanente",
+        permanent: "Prohibición permanente",
         active: {
           true: "Activo",
           temporal: "Temporal",
@@ -81,9 +81,9 @@ const language = {
         }
       },
       info: {
-        title: "Baneo #{id}",
+        title: "Prohibición #{id}",
         badges: {
-          ipban: "Baneo de IP",
+          ipban: "Prohibición por IP",
           active: "Activo",
           expired: "Expirado",
           permanent: "Permanente",
@@ -91,18 +91,18 @@ const language = {
       }
     },
     mutes: {
-      title: "Muteos",
+      title: "Silencios",
       // Placeholders: {total}
-      subtitle: "Muteos totales: {total}",
+      subtitle: "Cantidad de silencios: {total}",
       table: {
         heads: {
           player: "Jugador",
           by: "Silenciado por",
           reason: "Razón",
           date: "Fecha",
-          expires: "Expiración"
+          expires: "Expira"
         },
-        permanent: "Muteo permanente",
+        permanent: "Silencio permanente",
         active: {
           true: "Activo",
           temporal: "Temporal",
@@ -110,9 +110,9 @@ const language = {
         }
       },
       info: {
-        title: "Muteo #{id}",
+        title: "Silencio #{id}",
         badges: {
-          ipmute: "Muteo de IP",
+          ipmute: "Silencio por IP",
           active: "Activo",
           expired: "Expirado",
           permanent: "Permanente",
@@ -120,26 +120,26 @@ const language = {
       }
     },
     warns: {
-      title: "Avisos",
+      title: "Advertencias",
       // Placeholders: {total}
-      subtitle: "Avisos totales: {total}",
+      subtitle: "Cantidad de advertencias: {total}",
       table: {
         heads: {
           player: "Jugador",
-          by: "Avisado por",
+          by: "Advertido por",
           reason: "Razón",
           date: "Fecha",
           notified: "Notificado"
-        }
+        },
       },
       info: {
-        title: "Aviso #{id}"
+        title: "Advertencia #{id}"
       }
     },
     kicks: {
       title: "Expulsiones",
       // Placeholders: {total}
-      subtitle: "Expulsiones totales: {total}",
+      subtitle: "Cantidad de expulsiones: {total}",
       table: {
         heads: {
           player: "Jugador",
@@ -159,8 +159,8 @@ const language = {
     errors: {
       notFound: {
         title: "404",
-        description: "Parece que te has perdido. Por favor, vuelve a la página principal",
-        button: "Volver a la página de inicio"
+        description: "Parece que estás perdido. Por favor, vuelve a la página principal.",
+        button: "Volver a la página principal"
       }
     }
   },
@@ -177,3 +177,4 @@ const language = {
 }
 
 module.exports = language;
+

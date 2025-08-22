@@ -4,7 +4,7 @@ const language = {
     lang_name: "English"
   },
   site: {
-    description: "A simple and lightweight Litebans web interface."
+    description: "The BonkMC punishment records site."
   },
   words: {
     bans: {
@@ -20,8 +20,8 @@ const language = {
       plural: "Kicks"
     },
     warns: {
-      singular: "Warn",
-      plural: "Warns"
+      singular: "Warning",
+      plural: "Warnings"
     },
     yes: "Yes",
     no: "No",
@@ -37,7 +37,7 @@ const language = {
     home: {
       title: "Home",
       // Placeholders: {total}, {bans}, {mutes}, {kicks}, {warns}
-      subtitle: "Welcome to Litebans Web Interface!"
+      subtitle: "Welcome to the BonkMC punishment records!"
     },
     history: {
       title: "History",
@@ -56,7 +56,7 @@ const language = {
         expire_not_applicable: "N/A",
         active: {
           true: "Active",
-          temporal: "Temporal",
+          temporal: "Temporary",
           false: "Expired"
         }
       }
@@ -76,7 +76,7 @@ const language = {
         permanent: "Permanent ban",
         active: {
           true: "Active",
-          temporal: "Temporal",
+          temporal: "Temporary",
           false: "Expired"
         }
       },
@@ -105,7 +105,7 @@ const language = {
         permanent: "Permanent mute",
         active: {
           true: "Active",
-          temporal: "Temporal",
+          temporal: "Temporary",
           false: "Expired"
         }
       },
@@ -120,9 +120,9 @@ const language = {
       }
     },
     warns: {
-      title: "Warns",
+      title: "Warnings",
       // Placeholders: {total}
-      subtitle: "Warn count: {total}",
+      subtitle: "Warning count: {total}",
       table: {
         heads: {
           player: "Player",
@@ -133,7 +133,7 @@ const language = {
         },
       },
       info: {
-        title: "Warn #{id}"
+        title: "Warning #{id}"
       }
     },
     kicks: {
@@ -159,7 +159,7 @@ const language = {
     errors: {
       notFound: {
         title: "404",
-        description: "Seems like you are lost. Please go back to the main page.",
+        description: "Looks like you are lost. Please return to the home page.",
         button: "Back to home page"
       }
     }
